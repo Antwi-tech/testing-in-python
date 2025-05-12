@@ -2,6 +2,15 @@
 Unittest is a built in framework for test automation. It is based on OOP. It is not for unit tests only
 Test case- It is an instance of testing
 Test suite- It is a collection of test suite
+
+OOP IN PYTHON- RECAP
+OOP is ased on objects and classes
+
+Class- A template/blueprint of an object that can contain metthods and attributes
+Method- A func or procedure that belongs to a class
+Attribute- A variable that belongs to a class
+Object- An instance of a class
+
 """
 
 # Example
@@ -12,6 +21,7 @@ import unittest
 class TestSomething(unittest.TestCase):
     def test_example(self):
         self.assertEqual(1 + 1, 2)
+        
 """
 
 # Declaring the testcase
