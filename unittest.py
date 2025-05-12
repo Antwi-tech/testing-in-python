@@ -5,6 +5,7 @@ Test suite- It is a collection of test suite
 """
 
 # Example
+import math
 import unittest
 
 """
