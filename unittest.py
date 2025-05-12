@@ -42,7 +42,7 @@ def func_factorial(number):
 class TestFactorial(unittest.TestCase):
     def test_positives(self):
         # Add the test for testing positives here
-        self.assertEqual(func_factorial(5,) 120)
+        self.assertEqual(func_factorial(5) , 120)
 
 
 def func_factorial(number):
