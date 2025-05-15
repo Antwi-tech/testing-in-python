@@ -1,0 +1,8 @@
+
+Use CLI to run unitttest
+python3 -m unnittest test_script
+Flags
+The -k lets us specify only the function in the test script we want to ran in a string format
+-f - stop execution when a teest fails or contian errors
+-v - allows us to view more info about the test
+
